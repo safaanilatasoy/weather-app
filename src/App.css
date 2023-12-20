@@ -1,0 +1,70 @@
+#root {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.App{
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 300px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 100px;
+}
+.generalContainer{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding:10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+}
+.generalContainer select{
+  padding: 10px;
+   height: 100%;
+  border-radius:10px;
+  float: left;
+}
+.card{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  display: flex;
+  
+}
+.innerContainer {
+height: 100%;
+background-color:#2f3640;
+width: 100%;
+min-height: 100px;
+margin:5px;
+padding: 10px;
+border-radius: 10px;
+align-items: center;
+display:flex;
+ box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+}
+.today{
+  border: 1px solid #000;
+}
+
+.textBox
+{
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  width: 100%;
+  padding: 5px;
+  
+}
+.textBox span{
+  margin: 5px;
+}
