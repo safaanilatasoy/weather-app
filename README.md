@@ -1,4 +1,4 @@
-# Screenshoots
+# Screenshots
 
 
 
